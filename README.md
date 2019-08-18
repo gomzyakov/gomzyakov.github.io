@@ -1,8 +1,9 @@
-# Dev Landing Page
+# Hello, I'm Alexander!
 
-Minimal landing page for my personal GitHub page.
-
-This page is a showcase of everything I do online.
-
-Inspired by Dinesh Pandiyan [Dev Landing Page](https://github.com/flexdinesh/dev-landing-page)
-
+# IT Project Manager | IOS & Android Developer
+		
+		
+- [GitHub](https://github.com/gomzyakov)
+- [VK](https://vk.com/alexandergomzyakov)
+- [Facebook](https://www.facebook.com/alexandergomzyakov)
+- [Instagram](https://www.instagram.com/alexandergomzyakov)
