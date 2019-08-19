@@ -7,7 +7,6 @@ baseurl: ''
 email: alexander.gomzyakov@gmail.com
 cover: https://gomzyakov.github.io/img/og.png
 logo: https://gomzyakov.github.io/img/emojis/technologist.png
-resume: https://gomzyakov.github.io/resume.pdf
 social:
   - title: email
     url: mailto:alexander.gomzyakov@gmail.com
