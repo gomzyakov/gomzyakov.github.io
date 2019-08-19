@@ -16,8 +16,6 @@ social:
     url: https://www.facebook.com/hello.gomzyakov
   - title: vk
     url: https://vk.com/alexandergomzyakov
-  - title: instagram
-    url: https://www.instagram.com/alexander.gomzyakov
 
 # Build settings
 markdown: kramdown
