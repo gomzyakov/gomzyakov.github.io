@@ -3,7 +3,6 @@ const cp = require('child_process');
 
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
-const jsPath = '_scripts/*.js';
 const templatePath = [
   '*.html',
   '+(_includes|_layouts)/*.html',
@@ -39,7 +38,6 @@ module.exports = gulp => {
       },
     });
 
-    gulp.watch(jsPath, ['scripts', browserSync.reload]);
     gulp.watch(templatePath, ['jekyll-rebuild']);
   });
 };
