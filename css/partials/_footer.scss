@@ -75,9 +75,6 @@
         font-size: 0.9rem;
         display: inline;
         letter-spacing: 1px;
-        @include little-desktop {
-          display: none;
-        }
       }
     }
   }

@@ -1052,12 +1052,6 @@ strong {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 850px) {
-  .footer__links a .text {
-    display: none;
-  }
-}
-
 .not-found {
   width: 100%;
   height: 100vh !important;
