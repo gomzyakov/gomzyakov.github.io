@@ -17,10 +17,10 @@ module.exports = gulp => {
     return cp.spawn(jekyll, ['build'], { stdio: 'inherit' }).on('close', done);
   });
 
-  // run `jekyll build` with _config_dev.yml
+  // run `jekyll build` with _config.yml
   gulp.task('jekyll-dev', done => {
     return cp
-      .spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {
+      .spawn(jekyll, ['build', '--config', '_config.yml'], {
         stdio: 'inherit',
       })
       .on('close', done);
