@@ -667,10 +667,6 @@ strong {
   font-size: 0.9rem;
 }
 
-.experience .jobs {
-  margin-bottom: 100px;
-}
-
 .experience .job {
   margin-bottom: 25px;
 }
@@ -696,7 +692,7 @@ strong {
 
 .experience .job__time {
   font-size: 0.9rem;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 @media screen and (max-width: 480px) {
