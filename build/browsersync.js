@@ -3,7 +3,6 @@ const cp = require('child_process');
 
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
-const scssPath = '_scss/**/*.scss';
 const jsPath = '_scripts/*.js';
 const templatePath = [
   '*.html',
@@ -40,7 +39,6 @@ module.exports = gulp => {
       },
     });
 
-    gulp.watch(scssPath, ['sass', browserSync.reload]);
     gulp.watch(jsPath, ['scripts', browserSync.reload]);
     gulp.watch(templatePath, ['jekyll-rebuild']);
   });

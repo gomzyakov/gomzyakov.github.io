@@ -22,7 +22,6 @@
     "gulp-clean-css": "3.10.0",
     "gulp-eslint": "6.0.0",
     "gulp-imagemin": "6.0.0",
-    "gulp-sass": "^4.0.2",
     "gulp-uglify": "3.0.2"
   }
 }
