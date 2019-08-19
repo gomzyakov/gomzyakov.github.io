@@ -1,33 +1,27 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
+  - item: PHP
+  - item: JavaScript
   - item: HTML
   - item: CSS/Sass
-  - item: Python
   - item: SQL
-  - item: R
+  - item: Swift/Objective-C
 
 frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Slim
+  - item: Laravel
+  - item: CodeIgniter
+  - item: Symfony
+  - item: OpenCart
 
 tools:
-  - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
+  - item: Composer
+  - item: PHPUnit
   - item: Chrome DevTools
   - item: Postman
-  - item: MongoDB
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
+others:
+  - item: Travis CI
+  - item: StyleCI
   - item: Wireframing
   - item: User Testing
