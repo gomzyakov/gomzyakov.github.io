@@ -962,7 +962,7 @@ strong {
 
 .footer__copyright {
   font-weight: 700;
-  width: 200px;
+  width: 300px;
 }
 
 @media screen and (max-width: 630px) {
@@ -974,13 +974,15 @@ strong {
 }
 
 @media screen and (max-width: 630px) {
-  .footer__copyright .top, .footer__copyright .bottom {
+  .footer__copyright .top,
+  .footer__copyright .bottom {
     display: inline-block;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .footer__copyright .top, .footer__copyright .bottom {
+  .footer__copyright .top,
+  .footer__copyright .bottom {
     display: block;
   }
 }
@@ -1026,7 +1028,7 @@ strong {
   width: 100%;
   height: 1px;
   background: #007bff;
-  content: '';
+  content: "";
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
