@@ -63,9 +63,6 @@
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
         transform: translateY(-5px);
-        @include little-desktop {
-          display: none;
-        }
       }
       &:hover:after,
       &:focus:after {

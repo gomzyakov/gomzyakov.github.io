@@ -1038,12 +1038,6 @@ strong {
           transform: translateY(-5px);
 }
 
-@media screen and (max-width: 850px) {
-  .footer__links a:after {
-    display: none;
-  }
-}
-
 .footer__links a:hover:after, .footer__links a:focus:after {
   height: 2px;
   border-radius: 3px;
