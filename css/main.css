@@ -107,7 +107,7 @@ body {
 
 html.night,
 body.night {
-  background-color: #171c28;
+  background-color: #2c313e;
   color: #afafbf;
 }
 
@@ -222,7 +222,7 @@ strong {
       flex-shrink: 0;
   width: 200px;
   margin-right: 70px;
-  color: #007bff;
+  color: #4a94ff;
   text-transform: uppercase;
   text-align: right;
   font-weight: 700;
@@ -622,13 +622,13 @@ strong {
   display: inline-block;
   padding: 2px 3px;
   text-decoration: none;
-  -webkit-box-shadow: inset 0 -3px 0 #007bff;
-          box-shadow: inset 0 -3px 0 #007bff;
+  -webkit-box-shadow: inset 0 -3px 0 #4a94ff;
+          box-shadow: inset 0 -3px 0 #4a94ff;
 }
 
 .intro__contact .highlight-link:hover {
-  -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
-          box-shadow: inset 0 -33px 0 0 #007bff;
+  -webkit-box-shadow: inset 0 -33px 0 0 #4a94ff;
+          box-shadow: inset 0 -33px 0 0 #4a94ff;
   color: #ffffff;
 }
 
@@ -920,8 +920,8 @@ strong {
   font-weight: 700;
   padding: 2px 7px;
   border-radius: 3px;
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #4a94ff;
+  border: 1px solid #4a94ff;
   background: transparent;
 }
 
@@ -1008,7 +1008,7 @@ strong {
 .footer__links a {
   position: relative;
   display: inline-block;
-  color: #007bff !important;
+  color: #4a94ff !important;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0 15px;
@@ -1027,7 +1027,7 @@ strong {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #007bff;
+  background: #4a94ff;
   content: "";
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -1100,7 +1100,7 @@ strong {
   top: 25px;
   left: 30px;
   font-weight: 700;
-  color: #007bff;
+  color: #4a94ff;
   font-size: 1.5rem;
 }
 
@@ -1135,7 +1135,7 @@ strong {
 
 .not-found a {
   font-weight: 700;
-  color: #007bff !important;
+  color: #4a94ff !important;
   position: relative;
   display: inline-block;
 }
@@ -1146,7 +1146,7 @@ strong {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #007bff;
+  background: #4a94ff;
   content: '';
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
