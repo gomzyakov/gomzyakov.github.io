@@ -14,8 +14,7 @@
 - name: Passplex
   url: https://github.com/gomzyakov/passplex
   code: https://github.com/gomzyakov/passplex
-  description: Simple password manager for iOS. Passplex is a secure and easy-to-use app for store and manage your login credentials. <br>
-  <a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 120,000 downloads all over the world 🏆</a>
+  description: Simple password manager for iOS. Passplex is a secure and easy-to-use app for store and manage your login credentials. <br><a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 120,000 downloads all over the world 🏆</a>
   used:
     - thing: Objective-C
     - thing: Uncrustify
