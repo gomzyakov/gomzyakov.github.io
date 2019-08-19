@@ -11,12 +11,14 @@ resume: https://gomzyakov.github.io/resume.pdf
 social:
   - title: email
     url: mailto:alexander.gomzyakov@gmail.com
+  - title: github
+    url: https://github.com/gomzyakov
+  - title: facebook
+    url: https://www.facebook.com/hello.gomzyakov
   - title: vk
     url: https://vk.com/alexandergomzyakov
   - title: instagram
     url: https://www.instagram.com/alexander.gomzyakov
-  - title: github
-    url: https://github.com/gomzyakov
 
 # Build settings
 markdown: kramdown
