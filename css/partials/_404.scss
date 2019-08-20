@@ -45,7 +45,7 @@
       width: 100%;
       height: 3px;
       background: $blue;
-      content: '';
+      content: "";
       opacity: 0;
       transition: height 0.3s, opacity 0.3s, transform 0.3s;
       transform: translateY(-10px);

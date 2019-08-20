@@ -16,7 +16,8 @@
     padding: 70px 50px;
   }
 
-  &__hello, &__tagline {
+  &__hello,
+  &__tagline {
     font-size: 2.5rem;
     @include desktop {
       font-size: 2.25rem;
@@ -53,7 +54,7 @@
   &__hello {
     font-weight: 300;
     .wave-hand {
-      background-image: url('../img/emojis/wave.png');
+      background-image: url("../img/emojis/wave.png");
       margin-left: 10px;
       cursor: pointer;
 
@@ -97,7 +98,7 @@
       font-weight: 700;
     }
     .technologist {
-      background-image: url('../img/emojis/technologist.png');
+      background-image: url("../img/emojis/technologist.png");
     }
   }
   &__contact {
@@ -108,7 +109,7 @@
     }
     .emoji {
       &.pointer {
-        background-image: url('../img/emojis/pointright.png');
+        background-image: url("../img/emojis/pointright.png");
         width: 30px;
         height: 30px;
         margin: 0 5px;
