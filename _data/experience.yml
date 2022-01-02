@@ -1,7 +1,7 @@
-- company: Answeropedia
-  url: https://answeropedia.org/en
-  time: Mar 2019 - Present
-  position: Software Engineer, Founder
+- company: SpectrumData
+  url: https://spectrumdata.ru
+  time: Now 2019 - Present
+  position: PHP Developer
 
 - company: INSIS
   url: https://www.profintel.ru
@@ -13,12 +13,12 @@
   time: Aug 2016 - Jul 2018
   position: Project Manager, Software Engineer
 
-- company: Appster (closed)
+- company: Appster
   url: https://github.com/gomzyakov
   time: Dec 2015 - May 2016
   position: Swift Developer
 
-- company: KB Web Studio (closed)
+- company: KB Web Studio
   url: https://github.com/gomzyakov
   time: Aug 2014 - Nov 2015
   position: Project Manager, PHP Developer
@@ -34,11 +34,11 @@
   position: iOS Developer
 
 - company: Abak Press
-  url: http://www.apress.ru/
+  url: https://www.apress.ru/
   time: Jun 2011 - Jul 2012
   position: PHP Developer
 
-- company: KB Web Studio (closed)
+- company: KB Web Studio
   url: https://github.com/gomzyakov
   time: May 2008 - Jun 2011
   position: PHP Developer
