@@ -12,10 +12,6 @@ social:
     url: mailto:alexander.gomzyakov@gmail.com
   - title: github
     url: https://github.com/gomzyakov
-  - title: facebook
-    url: https://www.facebook.com/hello.gomzyakov
-  - title: vk
-    url: https://vk.com/alexandergomzyakov
 
 # Build settings
 markdown: kramdown
