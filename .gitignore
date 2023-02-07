@@ -1,5 +1,6 @@
-.DS_Store
-_site
-
-# PHPStorm
+# IDEs
+.vscode
 .idea
+
+# OS X
+.DS_Store
