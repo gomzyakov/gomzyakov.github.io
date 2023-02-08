@@ -37,7 +37,7 @@ function sumOfInteger(integer $a, integer $b): integer
 echo FOO_TITLE . sumOfInteger(13, 42);
 {% endhighlight %}
 
-And%
+And:
 
 ```php
 define('FOO_TITLE', 'Сумма ');
