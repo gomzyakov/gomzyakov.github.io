@@ -26,8 +26,7 @@ As well as bold and italics, you can also use some other special formatting in M
 There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
 
 
-```php
-
+{% highlight php %}
 define('FOO_TITLE', 'Сумма ');
 
 function sumOfInteger(integer $a, integer $b): integer
@@ -36,7 +35,7 @@ function sumOfInteger(integer $a, integer $b): integer
 }
 
 echo FOO_TITLE . sumOfInteger(13, 42);
-```
+{% endhighlight %}
 
 And:
 
