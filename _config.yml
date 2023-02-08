@@ -14,10 +14,13 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 highlighter: rouge
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 ganalytics: UA-113961478-1 # TODO replace
 
 # Authors
