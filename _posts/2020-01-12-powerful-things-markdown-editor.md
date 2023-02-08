@@ -25,7 +25,6 @@ As well as bold and italics, you can also use some other special formatting in M
 
 There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
 
-
 {% highlight php %}
 define('FOO_TITLE', 'Сумма ');
 
@@ -69,8 +68,39 @@ The quick brown jumped over the lazy.
 
 Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
 
-## Full HTML
 
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
+## Убирайте мёртвый код
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<!-- TODO Переписать -->
+
+Он плох так же, как и дублирующий код. Не нужно держать его в кодовой базе. Если что-то не вызывается, избавьтесь от этого! Если что, мёртвый код можно будет достать из истории версий.
+
+**Плохо:**
+
+```php
+function oldRequestModule(string $url): void
+{
+    // ...
+}
+
+function newRequestModule(string $url): void
+{
+    // ...
+}
+
+$request = newRequestModule($requestUrl);
+inventoryTracker('apples', $request, 'www.inventory-awesome.io');
+```
+
+**Хорошо:**
+
+```php
+function requestModule(string $url): void
+{
+    // ...
+}
+
+$request = requestModule($requestUrl);
+inventoryTracker('apples', $request, 'www.inventory-awesome.io');
+```
+

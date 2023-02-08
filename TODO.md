@@ -120,40 +120,6 @@ echo FOO_TITLE . ($first_number + $second_number);
 
 <br>
 
-## Убирайте мёртвый код
-
-<!-- TODO Переписать -->
-
-Он плох так же, как и дублирующий код. Не нужно держать его в кодовой базе. Если что-то не вызывается, избавьтесь от этого! Если что, мёртвый код можно будет достать из истории версий.
-
-**Плохо:**
-
-```php
-function oldRequestModule(string $url): void
-{
-    // ...
-}
-
-function newRequestModule(string $url): void
-{
-    // ...
-}
-
-$request = newRequestModule($requestUrl);
-inventoryTracker('apples', $request, 'www.inventory-awesome.io');
-```
-
-**Хорошо:**
-
-```php
-function requestModule(string $url): void
-{
-    // ...
-}
-
-$request = requestModule($requestUrl);
-inventoryTracker('apples', $request, 'www.inventory-awesome.io');
-```
 
 <br>
 
