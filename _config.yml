@@ -16,10 +16,10 @@ feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: coderay
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     disable: false
-highlighter: coderay
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -57,5 +57,3 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
-- rouge
-- kramdown-syntax-coderay

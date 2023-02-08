@@ -48,6 +48,14 @@ return $a + $b;
 echo FOO_TITLE . sumOfInteger(13, 42);
 ```
 
+Plus
+
+{% highlight ruby %}
+def foo
+puts 'foo'
+end
+{% endhighlight %}
+
 And:
 
 ```css
@@ -57,9 +65,6 @@ And:
 ```
 
 If you want to get really fancy, you can even add syntax highlighting using Rouge.
-
-
-![walking]({{ site.baseurl }}/assets/images/3.jpg)
 
 ## Reference lists
 

@@ -20,7 +20,4 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'tzinfo-data'
     gem 'tzinfo'
-    gem 'kramdown'
-    gem 'rouge'
-    gem 'kramdown-syntax-coderay'
 end
