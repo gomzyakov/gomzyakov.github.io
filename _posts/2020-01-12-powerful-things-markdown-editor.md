@@ -37,6 +37,19 @@ function sumOfInteger(integer $a, integer $b): integer
 echo FOO_TITLE . sumOfInteger(13, 42);
 {% endhighlight %}
 
+And%
+
+```php
+define('FOO_TITLE', 'Сумма ');
+
+function sumOfInteger(integer $a, integer $b): integer
+{
+return $a + $b;
+}
+
+echo FOO_TITLE . sumOfInteger(13, 42);
+```
+
 And:
 
 ```css

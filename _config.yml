@@ -16,7 +16,7 @@ feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
-    disable: false # TODO `true` in original
+    disable: true
 sass:
   sass_dir: _sass
   style: :compressed
