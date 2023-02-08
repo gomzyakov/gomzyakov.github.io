@@ -1,34 +1,34 @@
 title: "Affiliates"
-email: wowthemesnet@gmail.com
+email: alexander.gomzyakov@gmail.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Sasha
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: ru_ru
+lang: ru_ru
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
-    disable: true
+    disable: false # TODO `true` in original
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+ganalytics: UA-113961478-1 # TODO replace
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  Sasha:
+    name: Sasha
+    display_name: Sasha
     avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
+    email: alexander.gomzyakov@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
@@ -48,7 +48,7 @@ social:
   twitter: https://twitter.com/bstartercom
 
 # Plugins
-plugins: 
+plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
