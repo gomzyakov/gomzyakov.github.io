@@ -22,4 +22,5 @@ group :jekyll_plugins do
     gem 'tzinfo'
     gem 'kramdown'
     gem 'rouge'
+    gem 'kramdown-syntax-coderay'
 end
