@@ -15,13 +15,13 @@ layout: default
     <h1 class="posttitle">{{ page.title }}</h1>
   </div>
 
-  <div class="article-post serif-font">
+  <div class="article-post">
     {{content}}
   </div>
 
   {% if page.comments == true %}
-  <div id="comments">             
-      {% include disqus.html %} 
+  <div id="comments">
+      {% include disqus.html %}
   </div>
   {% endif %}
 
