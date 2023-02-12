@@ -1,32 +1,32 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: Главная
   url: ""
 
-- title: About
+- title: Обо мне
   url: "about/"
 
-- title: Contact
+- title: Контакты
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+- title: Этот блог на GitHub
+  url: https://github.com/gomzyakov/gomzyakov.github.io
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
 # Footer Menu
 footermenu:
 
-- title: Home
+- title: Главная
   url: ""
 
-- title: Privacy Policy
+- title: Политика конфиденциальности
   url: "privacy-policy/"
 
-- title: Contact
+- title: Контакты
   url: "contact/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+- title: Этот блог на GitHub
+  url: https://github.com/gomzyakov/gomzyakov.github.io
   external: true
