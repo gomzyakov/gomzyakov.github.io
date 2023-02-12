@@ -7,7 +7,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Sasha
 paginate: 30
-disqus: 'demowebsite'
+disqus: 'gomzyakov'
 locale: ru_ru
 lang: ru_ru
 feed_items: 10
