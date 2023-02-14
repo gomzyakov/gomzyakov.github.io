@@ -3,8 +3,6 @@ email: alexander.gomzyakov@gmail.com
 timezone: UTC
 baseurl: "/"
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
 author: gomzyakov
 paginate: 30
 disqus: 'gomzyakov'
@@ -23,17 +21,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-
-# Authors
-authors:
-  gomzyakov:
-    name: gomzyakov
-    display_name: gomzyakov
-    avatar: 'assets/images/gomzyakov.png'
-    email: alexander.gomzyakov@gmail.com
-    web: https://github.com/gomzyakov
-    twitter: https://github.com/gomzyakov
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
 
 # Plugins
 plugins:
