@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
 
     <title>{{ page.title }} | {{site.title}}</title>
 
@@ -54,11 +54,7 @@
         <div class="container">
 
             <a class="navbar-brand text-dark font-weight-bold big d-flex align-items-center" href="{{site.baseurl}}/">
-                {% if site.logo %}
-                <img class="mr-2" src="{{site.baseurl}}/{{site.logo}}" alt="logo">
-                {% else %}
-                <span class="d-none d-md-inline-block">{{ site.title }}</span>
-                {% endif %}
+                <img class="mr-2" src="{{site.baseurl}}/assets/images/gomzyakov.png" alt="logo">
             </a> |
 
 
@@ -110,7 +106,9 @@
         {% endfor %}
     </ul>
     <div class="copyright small">
-        Материалы болга &laquo;{{site.title}}&raquo; доступны под лицензией <a href="https://github.com/gomzyakov/gomzyakov.github.io/blob/master/LICENSE">Creative Commons Zero v1.0 Universal</a>
+        Материалы болга &laquo;{{site.title}}&raquo; доступны под лицензией <a
+        href="https://github.com/gomzyakov/gomzyakov.github.io/blob/master/LICENSE">Creative Commons Zero v1.0
+        Universal</a>
     </div>
 </footer>
 
