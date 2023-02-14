@@ -1,5 +1,9 @@
-# Affiliates - Free Jekyll Theme
+# Привет! :wave:
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+Меня зовут [Александр Гомзяков](https://github.com/gomzyakov) и я инженер-программист, занимающийся созданием высококачественных веб-сайтов и приложений. 🧑‍💻
 
-![jekyll-affiliates-theme](https://bootstrapstarter.com/assets/img/themes/affiliates-jekyll.jpg)
+Я работаю в компании [SpectrumData](https://spectrumdata.ru/) которая занимается создаем невероятных сервисов для получения информации о автомобилях, юридических лицах и объектах недвижимости и многом другом. А это [мой блог](https://gomzyakov.github.io) c советами для начинающих PHP разработчиков на Laravel
+
+## Есть вопросы?
+
+Не стесняйтесь писать, если у вас есть вопросы или предложения. Сделать это можно прямо здесь, в [issues](https://github.com/gomzyakov/gomzyakov.github.io/issues), или на электронную почту [alexander.gomzyakov@gmail.com](mailto:alexander.gomzyakov@gmail.com) 
