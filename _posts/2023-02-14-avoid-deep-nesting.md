@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Избегайте глубокой вложенности"
-author: sal
+author: gomzyakov
 categories: [ Чистый код, PHP, Laravel ]
 image: assets/images/2023-02-14-avoid-deep-nesting.jpg
 ---
