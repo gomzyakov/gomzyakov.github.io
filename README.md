@@ -6,4 +6,4 @@
 
 ## Вопросы и предложения
 
-Не стесняйтесь писать, если у вас есть вопросы или предложения. Сделать это можно прямо здесь, в [issues](https://github.com/gomzyakov/gomzyakov.github.io/issues), или на электронную почту [alexander.gomzyakov@gmail.com](mailto:alexander.gomzyakov@gmail.com) 
+Не стесняйтесь писать, если у вас есть вопросы или предложения. Сделать это можно прямо здесь, в [issues](https://github.com/gomzyakov/gomzyakov.github.io/issues), или написав мне на электронную почту [alexander.gomzyakov@gmail.com](mailto:alexander.gomzyakov@gmail.com) 
