@@ -5,10 +5,9 @@
   used:
     - thing: PHP
     - thing: Laravel
-    - thing: GitHub Actions
-    - thing: PHPUnit
-    - thing: PHPStan
-    - thing: php-cs-fixer
+    - thing: CI/CD
+    - thing: Tests
+    - thing: Code Style
 
 - name: LaraPage
   url: https://github.com/larapage
@@ -17,10 +16,9 @@
   used:
     - thing: PHP
     - thing: Laravel
-    - thing: GitHub Actions
-    - thing: PHPUnit
-    - thing: PHPStan
-    - thing: php-cs-fixer
+    - thing: CI
+    - thing: Tests
+    - thing: Code Style
 
 - name: Passplex
   url: https://github.com/gomzyakov/passplex
@@ -28,8 +26,6 @@
   description: Simple password manager for iOS. Passplex is a secure and easy-to-use app for store and manage your login credentials. <br><a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 120,000 downloads all over the world 🏆</a>
   used:
     - thing: Objective-C
-    - thing: Uncrustify
-    - thing: Alconost Nitro
 
 - name: Answeropedia
   url: https://answeropedia.org/en
@@ -37,20 +33,18 @@
   description: Answeropedia is like Wikipedia, only for questions and answers. You ask a question and get one complete, comprehensive and competent answer from the community.
   used:
     - thing: PHP
-    - thing: Slim Framework
+    - thing: Slim
     - thing: HTML
-    - thing: CSS/Sass
-    - thing: JavaScript
-    - thing: StyleCI
+    - thing: CSS
+    - thing: JS
 
 - name: Verge 2048
   url: https://github.com/gomzyakov/verge-2048
   code: https://github.com/gomzyakov/verge-2048
   description: Redesigned version of the game <a class="underline-link" href="https://github.com/gabrielecirulli/2048" target="_blank">2048</a>, written under iOS using SpriteKit
   used:
-    - thing: SpriteKit
     - thing: Objective-C
-    - thing: Uncrustify
+    - thing: SpriteKit
 
 - name: Contractions Timer
   url: https://github.com/gomzyakov/contractions-timer
@@ -58,4 +52,3 @@
   description: Simple and convenient contraction timer with user-friendly design. It keeps track of duration and frequency of labor contractions, as well as intervals between them.
   used:
     - thing: Objective-C
-    - thing: Uncrustify
