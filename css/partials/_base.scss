@@ -35,7 +35,6 @@ body {
     a,
     strong,
     .intro,
-    .skills .skillz__category__label,
     .experience .job__time,
     .footer__copyright {
       color: $off-white;
@@ -194,36 +193,6 @@ strong {
   margin-top: 15px;
   &:after {
     display: none;
-  }
-}
-
-#top-button {
-  @include transition;
-  background: transparent;
-  border: none;
-  outline: none;
-  width: 40px;
-  position: fixed;
-  bottom: 25px;
-  right: 10px;
-  cursor: pointer;
-  display: none;
-  @include desktop {
-    bottom: 20px;
-    right: 7px;
-    width: 35px;
-  }
-  @include mobile {
-    bottom: 15px;
-    right: 3px;
-  }
-
-  &:hover,
-  &:focus {
-    transform: translateY(-10px);
-  }
-  img {
-    width: 100%;
   }
 }
 

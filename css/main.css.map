@@ -7,7 +7,6 @@
         "partials/_fonts.scss",
         "partials/_base.scss",
         "partials/_intro.scss",
-        "partials/_skills.scss",
         "partials/_experience.scss",
         "partials/_other-projects.scss",
         "partials/_footer.scss",
