@@ -197,36 +197,6 @@ strong {
   }
 }
 
-#top-button {
-  @include transition;
-  background: transparent;
-  border: none;
-  outline: none;
-  width: 40px;
-  position: fixed;
-  bottom: 25px;
-  right: 10px;
-  cursor: pointer;
-  display: none;
-  @include desktop {
-    bottom: 20px;
-    right: 7px;
-    width: 35px;
-  }
-  @include mobile {
-    bottom: 15px;
-    right: 3px;
-  }
-
-  &:hover,
-  &:focus {
-    transform: translateY(-10px);
-  }
-  img {
-    width: 100%;
-  }
-}
-
 .waypoint {
   opacity: 0;
   transform: translate3d(0, 20px, 0);

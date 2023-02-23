@@ -341,44 +341,6 @@ strong {
   display: none;
 }
 
-#top-button {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  background: transparent;
-  border: none;
-  outline: none;
-  width: 40px;
-  position: fixed;
-  bottom: 25px;
-  right: 10px;
-  cursor: pointer;
-  display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  #top-button {
-    bottom: 20px;
-    right: 7px;
-    width: 35px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #top-button {
-    bottom: 15px;
-    right: 3px;
-  }
-}
-
-#top-button:hover, #top-button:focus {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-#top-button img {
-  width: 100%;
-}
-
 .waypoint {
   opacity: 0;
   -webkit-transform: translate3d(0, 20px, 0);
