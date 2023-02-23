@@ -7,7 +7,6 @@
     - thing: Laravel
     - thing: CI/CD
     - thing: Tests
-    - thing: Code Style
 
 - name: LaraPage
   url: https://github.com/larapage
