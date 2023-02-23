@@ -126,13 +126,11 @@ body.night ::selection {
 html.night a,
 html.night strong,
 html.night .intro,
-html.night .skills .skillz__category__label,
 html.night .experience .job__time,
 html.night .footer__copyright,
 body.night a,
 body.night strong,
 body.night .intro,
-body.night .skills .skillz__category__label,
 body.night .experience .job__time,
 body.night .footer__copyright {
   color: #e7e7e7;
@@ -590,41 +588,6 @@ strong {
   -webkit-box-shadow: inset 0 -33px 0 0 #4a94ff;
           box-shadow: inset 0 -33px 0 0 #4a94ff;
   color: #ffffff;
-}
-
-.skills .skillz {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-@media screen and (max-width: 630px) {
-  .skills .skillz {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 630px) {
-  .skills .skillz__category {
-    width: 47%;
-    margin-right: 5px;
-    margin-bottom: 25px;
-  }
-}
-
-.skills .skillz__category__label {
-  font-weight: 700;
-  color: #36363c;
-  text-transform: uppercase;
-}
-
-.skills .skillz__category__item {
-  margin: 3px 0;
-  font-size: 0.9rem;
 }
 
 .experience .job {
