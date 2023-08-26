@@ -3,3 +3,4 @@ _site
 
 # PHPStorm
 .idea
+node_modules
