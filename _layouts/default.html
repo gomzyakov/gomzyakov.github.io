@@ -8,6 +8,16 @@ layout: compress
   {% include head.html %}
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7CS778SESG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7CS778SESG');
+</script>
+
 <body class="night">
   {{ content }}
   {% include scripts.html %}
