@@ -8,17 +8,6 @@
     - thing: CI/CD
     - thing: Tests
 
-- name: LaraPage
-  url: https://github.com/larapage
-  code: https://github.com/larapage
-  description: LaraPage is a simple blog based on Laravel. The goal of this project is to showcase good Laravel development practices with a simple blog application.
-  used:
-    - thing: PHP
-    - thing: Laravel
-    - thing: CI
-    - thing: Tests
-    - thing: Code Style
-
 - name: Passplex
   url: https://github.com/gomzyakov/passplex
   code: https://github.com/gomzyakov/passplex
