@@ -10,18 +10,6 @@
 - name: Github Profile Achievements
   url: https://github-profile-achievements.github.io/english
   code: https://github.com/github-profile-achievements
-  description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 100 stars on GitHub 🏆</a>
+  description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 200 stars on GitHub 🏆</a>
   used:
     - thing: GitHub
-
-- name: Laravel blog with Filament admin panel
-  url: https://github.com/gomzyakov/laravel-blog
-  code: https://github.com/gomzyakov/laravel-blog
-  description: Simple blog based on Laravel 10 with Filament PHP admin panel.
-  used:
-    - thing: PHP
-    - thing: Laravel
-    - thing: CI
-    - thing: Tests
-    - thing: Code Style
-
