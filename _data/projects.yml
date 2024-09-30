@@ -1,3 +1,10 @@
+- name: Github Profile Achievements
+  url: https://gomzyakov.github.io/achievements/
+  code: https://github.com/gomzyakov/achievements
+  description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/achievements">🏆 More than 300 stars on GitHub 🏆</a>
+  used:
+    - thing: GitHub
+
 - name: Good First Issues
   url: https://good-first-issues.github.io
   code: https://github.com/good-first-issues/good-first-issues.github.io
@@ -6,10 +13,3 @@
     - thing: GitHub Pages
     - thing: Static site
     - thing: PHP
-
-- name: Github Profile Achievements
-  url: https://github-profile-achievements.github.io/english
-  code: https://github.com/github-profile-achievements
-  description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/passplex">🏆 More than 200 stars on GitHub 🏆</a>
-  used:
-    - thing: GitHub
