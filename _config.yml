@@ -1,36 +1,62 @@
-# Site settings
-name: Alexander Gomzyakov
-title: Alexander Gomzyakov | Software Engineer
-description: Design-minded software engineer focused on building beautiful products
-url: https://gomzyakov.github.io/
+# Site
+name: Александр Гомзяков
+description: 'Заметки о разработке на PHP и Laravel'
+logo: '/assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: ''
-email: alexander.gomzyakov@gmail.com
-cover: https://gomzyakov.github.io/img/og.png
-logo: https://gomzyakov.github.io/img/emojis/technologist.png
-social:
-  - title: email
-    url: mailto:alexander.gomzyakov@gmail.com
-  - title: github
-    url: https://github.com/gomzyakov
+email: 'alexander.gomzyakov@gmail.com'
 
-# Build settings
-markdown: kramdown
+include: [ "_pages" ]
+permalink: /:title/
 
-exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '*.gemspec'
-  - 'README.md'
-  - 'node_modules'
-  - 'build'
-  - 'gulpfile.js'
-  - 'package.json'
+# The shortname for your Disqus site to enable comments.
+disqus: gomzyakov
 
-keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
-
-plugins_dir:
-  - jekyll-minifier
+# Plugins
+plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+authors:
+  gomzyakov:
+    name: Александр Гомзяков
+    site: https://github.com/gomzyakov
+    avatar: assets/images/avatar/gomzyakov_red_200.png
+    bio: "Разработчик проектов на Laravel"
+    email: alexander.gomzyakov@gmail.com
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: gomzyakov
+      avatar: /assets/images/avatar/gomzyakov_red_200.png
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude:
+  - docker-compose.yml
+  - README.markdown
+  - package.json
+  - grunt.js
+  - Gruntfile.js
+  - Gruntfile.coffee
+  - node_modules

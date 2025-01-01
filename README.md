@@ -1,5 +1,11 @@
-# My Personal Site
+# gomzyakov.github.io
 
-This site built with [Jekyll](https://jekyllrb.com/).
+Блог с заметками о разработке на PHP и Laravel https://gomzyakov.github.io/
 
-Source theme designed and developed by [Brittany Chiang]([https://brittanychiang.com/](https://github.com/bchiang7/bchiang7.github.io)).
+Для того, чтобы развернуть блог локально, просто наберите:
+
+```sh
+docker compose up -d
+```
+
+Оформление блога вдохновлено темой [Mundana](https://www.wowthemes.net/mundana-jekyll-theme/) от [WowThemes](https://www.wowthemes.net).

@@ -1,18 +1,11 @@
-# Please see the documentation for all configuration options:
-# - https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
-
   # Enable version updates for Docker
   - package-ecosystem: "docker"
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "07:00"
-      timezone: "Asia/Yekaterinburg"
+      interval: "monthly"
     labels:
       - "dependencies"
 
@@ -20,10 +13,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "07:00"
-      timezone: "Asia/Yekaterinburg"
+      interval: "monthly"
     labels:
       - "dependencies"
 
@@ -31,9 +21,13 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "07:00"
-      timezone: "Asia/Yekaterinburg"
+      interval: "monthly"
     labels:
       - "dependencies"
+
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: monthly
+    allow:
+      - dependency-type: direct
