@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Простой способ деплоя Laravel-приложений на VDS-хостинг"
-description: "The deployment process of Laravel app to VDS."
+description: "Рассказываю о простом способе деплоя Laravel-приложений на VDS-хостинг."
 author: gomzyakov
 categories: [ Laravel, VDS, Деплой ]
 image: assets/images/2024-12-31-deploy.jpeg
