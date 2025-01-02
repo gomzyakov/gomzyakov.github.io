@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Значки-достижения в профиле GitHub"
+description: "Значки-достижения в профиле GitHub"
 author: gomzyakov
 categories: [ GitHub, Руководство ]
 image: assets/images/2024-11-18-github-profile-achievements.jpeg
-tags: [sticky]
 ---
 
 В профиле GitHub показывается не только график "вкладов" в репозиторий за последний год, но и достижения (GitHub Acievements).

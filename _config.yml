@@ -5,6 +5,7 @@ logo: '/assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 email: 'alexander.gomzyakov@gmail.com'
+locale: ru_RU
 
 include: [ "_pages" ]
 permalink: /:title/

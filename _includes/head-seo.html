@@ -1,0 +1,17 @@
+<!-- OG-tags -->
+{% if page.date %}
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}"/>
+{% else %}
+<meta property="og:type" content="website"/>
+{% endif %}
+{% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+{% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:locale" content="{{ site.locale }}"/>
+{% if page.image %}<meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}"/>{% endif %}
+{% if page.title %}<meta property="og:image:alt" content="{{ page.title }}"/>{% endif %}
+
+<!-- Next & previous pages -->
+{% if page.previous.url %}<link rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}"/>{% endif %}
+{% if page.next.url %}<link rel="next" href="{{ site.baseurl }}{{ page.next.url }}"/>{% endif %}

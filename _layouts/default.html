@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="{{ site.locale }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{page.title}} | {{site.name}}</title>
+    <title>{{ page.title }} | {{ site.name }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}"/>
+    {% endif %}
 
-    {% seo title=false %}
+    {% include head-seo.html %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
@@ -29,8 +32,6 @@
     crossorigin="anonymous"></script>
 
     {% include tracking-header.html %}
-
-
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
