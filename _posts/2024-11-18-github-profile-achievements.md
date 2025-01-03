@@ -11,6 +11,15 @@ image: assets/images/2024-11-18-github-profile-achievements.jpeg
 
 <!--more-->
 
+Появилась идея ___
+
+и 11 ноября 2022 года я сделал [Initial commit](https://github.com/gomzyakov/achievements/commit/42437a36c2c2f832dca84957de6db03e6889e7b7) в репозиторий https://github.com/gomzyakov/achievements
+
+
+Менял репозиторий
+Добалял организацию с длинным названием
+
+
 #### Early 18th century woodcut of Bucharest
 
 The Ottomans appointed Greek administrators (Phanariotes) to run the town from the 18th century. A short-lived revolt initiated by Tudor Vladimirescu in 1821 led to the end of the rule of Constantinople Greeks in Bucharest.[19]
