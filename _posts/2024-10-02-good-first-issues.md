@@ -11,6 +11,8 @@ tags: [featured]
 good-first-issues.github.io
 
 
+Сейчас сай не работает
+
 
 ![good-first-issues.github.io]({{ site.baseurl }}/assets/images/2024-10-02/good-first-issues.png)
 
