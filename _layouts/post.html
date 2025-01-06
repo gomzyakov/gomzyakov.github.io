@@ -101,13 +101,15 @@ layout: default
 
     </div>
 
+    <!-- Previous & Next articles -->
     <div class="row row-cols-1 row-cols-md-2 g-4 mt-5 pt-5">
         {% if page.previous.url %}
         <div class="col">
             <div class="card h-100">
                 {% if page.previous.image %}
                 <a href="{{ site.baseurl }}{{ page.previous.url }}">
-                    <img src="{{ site.baseurl }}/{{ page.previous.image }}" class="card-img-top" alt="{{ page.previous.title }}">
+                    <img src="{{ site.baseurl }}/{{ page.previous.image }}" class="card-img-top"
+                         alt="{{ page.previous.title }}">
                 </a>
                 {% endif %}
                 <div class="card-body">
@@ -117,9 +119,10 @@ layout: default
                         </h5>
                     </a>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This contenskjsj sjdhs kjdhs djhs dhs jkdh skjdh jkt is a little bit longer.</p>
+                        additional content. This contenskjsj sjdhs kjdhs djhs dhs jkdh skjdh jkt is a little bit
+                        longer.</p>
                     <small class="text-muted">
-                        Предыдущий пост &middot; {{ page.previous.date | date: '%d.%m.%Y' }}
+                        Предыдущая статья &middot; {{ page.previous.date | date: '%d.%m.%Y' }}
                     </small>
                 </div>
             </div>
@@ -130,7 +133,8 @@ layout: default
         <div class="col">
             <div class="card h-100">
                 <a href="{{ site.baseurl }}{{ page.next.url }}">
-                    <img src="{{ site.baseurl }}/{{ page.next.image }}" class="card-img-top" alt="{{ page.next.title }}">
+                    <img src="{{ site.baseurl }}/{{ page.next.image }}" class="card-img-top"
+                         alt="{{ page.next.title }}">
                 </a>
                 <div class="card-body">
                     <a href="{{ site.baseurl }}{{ page.next.url }}">
@@ -140,7 +144,7 @@ layout: default
                     </a>
                     <p class="card-text">This is a loent is a little bit longer.</p>
                     <small class="text-muted">
-                        Следующий пост &middot; {{ page.next.date | date: '%d.%m.%Y' }}
+                        Следующая статья &middot; {{ page.next.date | date: '%d.%m.%Y' }}
                     </small>
                 </div>
             </div>

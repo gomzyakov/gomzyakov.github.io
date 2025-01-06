@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Education must also train one for quick, resolute and effective thinking."
+title:  "SecretNotes"
 categories: [ Jekyll, tutorial ]
 image: assets/images/2024-12-31-deploy.jpeg
 ---
 
 
 SecretNotes
+
+Secretic
+
 
 - name: Secretic
   url: https://github.com/gomzyakov/secretnotes
