@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Accumulated experience of social living"
+title:  "Дружеский DDOS на SecretNotes"
 author: gomzyakov
 categories: [ Jekyll, tutorial ]
 image: assets/images/2024-12-31-deploy.jpeg

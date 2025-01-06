@@ -1,11 +1,31 @@
 ---
 layout: post
-title:  "Never stopped worrying or loving the bomb"
+title:  "Good First Issues"
 author: gomzyakov
 categories: [ Jekyll ]
 image: assets/images/2024-12-31-deploy.jpeg
 tags: featured
 ---
+
+
+
+good-first-issues.github.io
+
+
+Сейчас сай не работает
+
+
+![good-first-issues.github.io]({{ site.baseurl }}/assets/images/2024-10-02/good-first-issues.png)
+
+- name: Good First Issues
+  url: https://good-first-issues.github.io
+  code: https://github.com/good-first-issues/good-first-issues.github.io
+  description: 🚀 Help beginners make their first contributions to open source
+  used:
+    - thing: GitHub Pages
+    - thing: Static site
+    - thing: PHP
+    
 I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.
 
 So begins Hallam Hawksworth’s The Strange Adventures of a Pebble. Written in the 1920s, the book was part of a series which also included The Adventures of a Grain of Dust and A Year in the Wonderland of Trees, all of which were supposed to introduce children to the world of Natural Sciences. 
