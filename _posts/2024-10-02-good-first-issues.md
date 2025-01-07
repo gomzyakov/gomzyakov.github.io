@@ -1,15 +1,20 @@
 ---
 layout: post
-title:  Попытка собирать issues с метками good-first-issues на GitHub-е
+title:  Неудачная попытка собрать все простые GitHub Issues на одном статическом сайте
 author: gomzyakov
 categories: [ Проекты ]
 image: assets/images/2024-10-02-good-first-issues/cat.jpeg
 tags: [featured]
 ---
 
+с метками good-first-issues на GitHub-е
+
+title:  Неудачная попытка собрать на одном сайте простые issues со всего GitHub-а
 
 good-first-issues.github.io
 
+
+статика
 
 Сейчас сай не работает
 
@@ -19,7 +24,6 @@ good-first-issues.github.io
 Сейчас сай не работает
 
 
-![good-first-issues.github.io]({{ site.baseurl }}/assets/images/2024-10-02/good-first-issues.png)
 
 - name: Good First Issues
   url: https://good-first-issues.github.io

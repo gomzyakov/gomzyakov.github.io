@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Как я пришел к Answeropedia и почему отказался"
+title:  "Answeropedia &mdash; это как Wikipedia, только для вопросов и ответов..."
 author: gomzyakov
 categories: [ Jekyll, tutorial ]
 image: assets/images/2024-01-03/answeropedia.jpeg
 ---
 
+
+Как я пришел к Answeropedia и почему отказался
 
 появилась идея
 

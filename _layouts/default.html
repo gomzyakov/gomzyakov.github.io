@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }} | {{ site.name }}</title>
     {% if page.description %}
-    <meta name="description" content="{{page.description}}"/>
+    <meta name="description" content="{{ page.description }}"/>
     {% endif %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', ''}}">
 
     {% include head-seo.html %}
 

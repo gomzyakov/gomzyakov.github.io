@@ -10,6 +10,16 @@ image: assets/images/2024-11-18-github-profile-achievements/github-profile-achie
 В профиле GitHub показывается не только график "вкладов" в репозиторий за последний год, но и достижения (GitHub Acievements).
 
 
+
+Появилась идея ___
+
+и 11 ноября 2022 года я сделал [Initial commit](https://github.com/gomzyakov/achievements/commit/42437a36c2c2f832dca84957de6db03e6889e7b7) в репозиторий https://github.com/gomzyakov/achievements
+
+
+Менял репозиторий
+Добалял организацию с длинным названием
+
+
 <!--more-->
 
 - name: Github Profile Achievements
