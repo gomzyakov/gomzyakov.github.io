@@ -18,7 +18,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-seo-tag
 
 authors:
   gomzyakov:
