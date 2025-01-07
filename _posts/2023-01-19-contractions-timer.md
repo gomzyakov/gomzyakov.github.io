@@ -3,7 +3,7 @@ layout: post
 title:  "Contractions Timer"
 author: gomzyakov
 categories: [ Jekyll, tutorial ]
-image: assets/images/2024-12-31-deploy.jpeg
+image: assets/images/2023-01-19-contractions-timer/contractions-timer.jpeg
 tags: featured
 ---
 

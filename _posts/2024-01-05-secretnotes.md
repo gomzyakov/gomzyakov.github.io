@@ -2,7 +2,7 @@
 layout: post
 title:  "SecretNotes"
 categories: [ Jekyll, tutorial ]
-image: assets/images/2024-12-31-deploy.jpeg
+image: assets/images/2024-01-05-secretnotes/secretnotes.jpeg
 ---
 
 

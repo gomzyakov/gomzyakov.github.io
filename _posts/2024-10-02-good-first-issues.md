@@ -3,7 +3,7 @@ layout: post
 title:  Попытка собирать issues с метками good-first-issues на GitHub-е
 author: gomzyakov
 categories: [ Проекты ]
-image: assets/images/2024-10-02/good-first-issues.png
+image: assets/images/2024-10-02-good-first-issues/cat.jpeg
 tags: [featured]
 ---
 
@@ -13,8 +13,25 @@ good-first-issues.github.io
 
 Сейчас сай не работает
 
+good-first-issues.github.io
+
+
+Сейчас сай не работает
+
 
 ![good-first-issues.github.io]({{ site.baseurl }}/assets/images/2024-10-02/good-first-issues.png)
+
+- name: Good First Issues
+  url: https://good-first-issues.github.io
+  code: https://github.com/good-first-issues/good-first-issues.github.io
+  description: 🚀 Help beginners make their first contributions to open source
+  used:
+    - thing: GitHub Pages
+    - thing: Static site
+    - thing: PHP
+    - 
+
+![good-first-issues.github.io]({{ site.baseurl }}/assets/images/2024-10-02-good-first-issues/good-first-issues.png)
 
 The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter. 
 
