@@ -1,6 +1,6 @@
 # Site
-name: Александр Гомзяков
-description: 'Заметки о разработке на PHP и Laravel'
+name: Блог
+description: 'Мой персональный блог с заметками о разработке на PHP и Laravel'
 logo: '/assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
