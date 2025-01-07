@@ -7,14 +7,14 @@
 	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 	</p>
 	<small class="d-block text-muted">
-		In <span class="catlist">
+		<span class="">{{ post.date | date: '%d.%m.%Y' }}</span>
+		<span class="catlist">
 		{% for category in post.categories %}
-		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+		<a class="text-capitalize text-muted smoothscroll ml-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+			{{ category }}
+		</a>
 		{% endfor %}
 		</span>
-	</small>
-	<small class="text-muted">
-		{{ post.date | date: '%d.%m.%Y' }}
 	</small>
 </div>
 {% if post.image %}

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Accumulated experience of social living"
+title:  "Дружеский DDOS на SecretNotes"
 author: gomzyakov
 categories: [ Jekyll, tutorial ]
-image: assets/images/2024-12-31-deploy.jpeg
+image: assets/images/2024-12-31/ddos.jpeg
 ---
 The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
 

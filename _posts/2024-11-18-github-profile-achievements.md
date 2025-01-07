@@ -4,10 +4,11 @@ title:  "Значки-достижения в профиле GitHub"
 description: "Значки-достижения в профиле GitHub"
 author: gomzyakov
 categories: [ GitHub, Руководство ]
-image: assets/images/2024-11-18-github-profile-achievements.jpeg
+image: assets/images/2024-11-18-github-profile-achievements/github-profile-achievements.jpeg
 ---
 
 В профиле GitHub показывается не только график "вкладов" в репозиторий за последний год, но и достижения (GitHub Acievements).
+
 
 <!--more-->
 
@@ -19,6 +20,12 @@ image: assets/images/2024-11-18-github-profile-achievements.jpeg
 Менял репозиторий
 Добалял организацию с длинным названием
 
+- name: Github Profile Achievements
+  url: https://gomzyakov.github.io/achievements/
+  code: https://github.com/gomzyakov/achievements
+  description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/achievements">🏆 More than 300 stars on GitHub 🏆</a>
+  used:
+    - thing: GitHub
 
 #### Early 18th century woodcut of Bucharest
 
