@@ -17,14 +17,6 @@ updates:
     labels:
       - "dependencies"
 
-  # Maintain dependencies for npm
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    labels:
-      - "dependencies"
-
   - package-ecosystem: bundler
     directory: /
     schedule:
