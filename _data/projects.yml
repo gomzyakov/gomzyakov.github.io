@@ -1,15 +1,15 @@
 - name: EverLetter
   url: https://everletter.org
   code: https://github.com/everletter
-  description: 💌 Write a letter to your future self
+  description: Write a letter to your future self
   used:
     - thing: PHP
     - thing: Laravel
     - thing: Bootstrap
 
 - name: Github Badges & Achievements
-  url: https://badges-and-achievements.github.io/
-  code: https://github.com/badges-and-achievements/badges-and-achievements.github.io
+  url: https://github.com/gomzyakov/achievements
+  code: https://github.com/gomzyakov/achievements
   description: Complete list of all GitHub profile Badges and Achievements. <br><a class="small" href="https://github.com/gomzyakov/achievements">🏆 More than 300 stars on GitHub 🏆</a>
   used:
     - thing: GitHub
