@@ -7,7 +7,7 @@
     - thing: Static site
     - thing: PHP
 
-- name: Secretic
+- name: SecretNotes
   url: https://github.com/gomzyakov/secretnotes
   code: https://github.com/gomzyakov/secretnotes
   description: Secret notes that will self-destruct after being read
