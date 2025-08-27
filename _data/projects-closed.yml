@@ -1,12 +1,3 @@
-- name: Good First Issues
-  url: https://good-first-issues.github.io
-  code: https://github.com/good-first-issues/good-first-issues.github.io
-  description: 🚀 Help beginners make their first contributions to open source
-  used:
-    - thing: GitHub Pages
-    - thing: Static site
-    - thing: PHP
-
 - name: SecretNotes
   url: https://github.com/gomzyakov/secretnotes
   code: https://github.com/gomzyakov/secretnotes
